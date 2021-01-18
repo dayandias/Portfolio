@@ -1,0 +1,273 @@
+/* General styles */
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+body{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Roboto Slab', serif;
+   font-size: 1em;
+   background-color: #283655;
+   color:#ffffff; 
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color:#2d2e25;
+    transition: 0.7s ease;
+}
+#bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:fit-content;
+    position: absolute;
+    z-index: -1;
+}
+.btn {
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #283655;
+}
+.btn:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+/* Bounce animation */
+.bouncy{
+    animation:bouncy 2s infinite linear;
+    position:relative;
+    }
+    @keyframes bouncy {
+        0%{
+            top:0em;
+        }
+        40%{
+            top:0em;
+        }
+        43%{
+            top:-0.9em;
+        }
+        46%{
+            top:0em;
+        }
+        48%{
+            top:-0.4em;
+        }
+        50%{
+            top:0em;
+        }
+        100%{
+            top:0em;
+        }
+
+    }
+
+/* Header-bar styles */
+#header-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#name-div{
+    align-items: center;
+    text-align: center;
+}
+#name-name{
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    font-size: 1.6em;
+    letter-spacing: 8px;
+}
+#nav-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+}
+.padder{
+    padding: 3%;
+}
+.hov-col:hover{
+    background-image: linear-gradient(to right, #99738E , #F64C72);
+    color: #ffffff;
+}
+@media screen and (max-width: 850px){
+    #header-bar {
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    #nav-tab {
+        grid-template-columns: 1fr;
+    }
+}
+/* Full background image styles */
+#welcome{    
+    background-image: url("https://fedoramagazine.org/wp-content/uploads/2017/05/f28.png");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* Welcome title and message area styles */
+#welcome-txt{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#welcome-title {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#welcome-title-title{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6em;
+    letter-spacing: 8px;
+    font-family: 'Roboto Slab', serif;
+}
+#welcome-message {
+    align-content: center;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    padding: 5%;
+}
+#welcome-message-heading{
+    letter-spacing: 3px;
+    line-height: 1.6;
+    font-size: 1.5em;
+}
+#welcome-message-message {
+    letter-spacing: 3px;
+    line-height: 1.6;
+    font-size: 1.3em;
+}
+#resume-link:hover{
+    color: #F64C72;
+}
+
+@media screen and (max-width: 850px){
+    #welcome{
+        grid-template-columns: 1fr;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    #welcome-title {
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    #welcome-message {
+        text-align: center;
+    }
+}
+/* Portfolio styles */
+/* Please see index.js for html */
+#portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 15px;
+    row-gap: 15px;
+}
+#portfolio1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.curr{
+    box-shadow: 1px 1px 2px 2px rgb(73, 73, 73);
+    border-radius: 4%;
+    color: #dddd;
+    overflow: hidden;
+}
+#p1-img{
+    max-width: 100%;
+    min-height: 100%;
+    display: block;
+    overflow:hidden;
+} 
+#p1-img:hover  {
+    transform: scale(1.05);
+    transition: 0.7s;
+    opacity: 1;
+}
+#visible{
+    position: relative;
+    top: -10%;
+    color: azure;
+    background-color: #151421;
+    height: 10%;
+    text-align: center;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    opacity: 0;
+    overflow:visible
+}
+.curr:hover #visible {
+    opacity: .8;
+    transition: 0.5s ease-in-out ;
+}
+#btn-div{
+    text-align: right;
+}
+@media screen and (max-width: 850px){
+    #portfolio {
+        grid-template-columns: 1fr;
+    }
+    #portfolio1 {
+        grid-template-columns: 1fr;
+    }
+    .curr{
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        overflow:hidden;
+    }
+}
+
+/* Footer section styles */
+#contact-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5%;
+    background-color: #4d648d;
+}
+
+/* Copyright styles */
+#copyright{
+    background-color: #1e1f26;
+    padding: .6%;
+    text-align: right;
+}
+@media screen and (max-width: 850px){
+    #copyright{
+        text-align: center;
+    }
+}

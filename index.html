@@ -1,0 +1,84 @@
+<!-- http://localhost/Portfolio-latest%20new/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src=index.js></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Index</title>
+</head>
+<body onload="loadPortfolio()">
+   
+
+    <!-- Header-bar -->
+    <div id="welcome">
+        <div id="header-bar" data-aos="fade-down">
+            <div id="name-div">
+                <div id="name-name">DAYAN DIAS</div>   
+            </div>
+            <div id="nav-tab">
+                <a href=""><div id="home-tab" class="padder hov-col">About Me</div></a>
+                <a href="./Resume/Dayan Dias Resume.pdf"><div id="resume-tab" class="padder hov-col">Resume</div></a>
+                <a href="#contact-me"><div id="contact" class="padder hov-col">Contact</div></a>
+            </div> 
+        </div>
+
+        <!-- Welcome title and message section -->
+
+        <div id="welcome-txt" data-aos="fade-up">
+            <div id="welcome-title">
+                <h3 id="welcome-title-title"></h3>
+            </div>
+            <div id="welcome-message">
+                
+                    <p id="welcome-message-heading">Hi, I'm Dayan</p>
+                    <br><br>
+                    <p id="welcome-message-message">I'm currently completing my Masters degree in Computer Science at Pace University in New York. 
+                    <br><br>
+                    I have taken courses in Mobile Web Development (Responsive Web Development), Parallel and Distributed Computing (Multithreaded and client-server applications), Fundamental Computer Science I and II (Java), Computer Systems and Concepts, Data Mining, Algorithms and Computer Theory, Database Management Systems (MySQL), Concepts and Structures in Internet Computing.
+                    <br><br>
+                    I'm interested in taking up projects in web development, software development, native app development and database management. 
+                    <br><br>
+                    Do get in touch with me. My resume can be found <a href="./Resume/Dayan Dias Resume.pdf" id="resume-link">here</a> and contact my contact details are listed <a href="#contact-me" id="resume-link">here.</a> </p>
+            </div>
+
+        </div>
+    </div>
+    <br> <br>
+    <!-- Portfolio -->
+    <!-- Content rendered using AJAX. Code in index.js -->
+    <div id="portfolio" class="padder" data-aos="fade-right"></div>
+    <div id="portfolio1" class="padder" data-aos="fade-right"></div>
+
+    <div id="btn-div" class="padder">
+        <button id="btn1" class="btn bouncy">Load more</button>
+    </div>
+    <br>
+
+    <!-- Footer section -->
+    <div id="contact-me">
+        <div class="contInfo"><a class="map" href="mailto:dayandias20@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></div>
+        <div class="contInfo"><a id="link" href="https://www.linkedin.com/in/dayan-dias-8b2b4577/"><i class="fab fa-linkedin fa-2x"></i></a></div>
+        <div class="contInfo"><a id="git" href="https://github.com/dayandias"><i class="fab fa-github-square fa-2x"></i></a></div>
+        <div class="contInfo"><a id="insta" href="https://www.instagram.com/dayan_dias90/?hl=en"><i class="fab fa-instagram fa-2x"></i></a></div>
+        <div class="contInfo"><a id="fb" href="https://www.facebook.com/dayan.dias2"><i class="fab fa-facebook fa-2x"></i></a></div>   
+    </div>
+
+    <!-- Copyrights section -->
+    <div id="copyright">Copyright   <i class="far fa-copyright"></i>    Designed by Dayan Dias</div>
+
+</body>
+<script src=index.js></script>
+<!-- Scroll effect -->
+<!-- https://github.com/michalsnik/aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:300, 
+        duration:800
+    });
+  </script>
+</html>

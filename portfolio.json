@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "link": "http://webpage.pace.edu/ad44798n/UltraCorp/ultraCoIndex.html",
+        "image": "https://www.hughesandco.com/wp-content/uploads/2016/06/responsive-web-design-hughes-and-co-design.jpg",
+        "visible": "Responsive Web"
+    },
+    {
+        "id": 2,
+        "link": "http://webpage.pace.edu/ad44798n/ionic_app_deve.html",
+        "image": "https://miro.medium.com/max/900/1*UJFpBeOQ3T2WfyrNEf8JzQ.png",
+        "visible": "Ionic/Angular"
+    },
+    {
+        "id": 3,
+        "link": "http://webpage.pace.edu/ad44798n/Assignment4.html",
+        "image": "https://miro.medium.com/max/1000/1*4V5_r_c_uYAeWMXmzqtahg.png",
+        "visible": "A-Frame(WebVR)"
+    },
+    
+    {
+        "id": 4,
+        "link": "https://drive.google.com/file/d/1-tUOKR_2K-sJj5OEWvSxqxVOeWGKb-cx/view?usp=sharing",
+        "image": "https://miro.medium.com/max/3840/1*wjD2BJ7F6iNKJTDLtb7FGA.png",
+        "visible": "Project on Data Mining"
+    },
+    {
+        "id": 5,
+        "link": "https://github.com/dayandias/Parallel-and-Distributed-Computing",
+        "image": "https://www.hitechnectar.com/wp-content/uploads/2020/02/Distributed-vs-parallel-computing.jpg",
+        "visible": "Parallel and Distributed Computing (Java & C)"
+    },
+    {
+        "id": 6,
+        "link": "https://github.com/dayandias/DBMS-Assignment-4---part-1/blob/master/paper_reviews_author.sql",
+        "image": "https://i.pinimg.com/originals/3a/51/12/3a51129274fc2cf77ec774ed11845928.jpg",
+        "visible": "DBMS with MySQL"
+    }
+
+]
