@@ -19,13 +19,6 @@ a:hover, a:active{
     color:#2d2e25;
     transition: 0.7s ease;
 }
-#bg-img{
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:fit-content;
-    position: absolute;
-    z-index: -1;
-}
 .btn {
     padding:0.35em 1.2em;
     border:0.1em solid #FFFFFF;
@@ -115,10 +108,13 @@ a:hover, a:active{
     #nav-tab {
         grid-template-columns: 1fr;
     }
+    /* #name-name, #home-tab, #resume-tab, #contact, #welcome-message {
+        color: #f4ff5c;
+    } */
 }
 /* Full background image styles */
 #welcome{    
-    background-image: url("https://fedoramagazine.org/wp-content/uploads/2017/05/f28.png");
+    background-image: url("https://wallpaperaccess.com/full/1567677.jpg");
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
