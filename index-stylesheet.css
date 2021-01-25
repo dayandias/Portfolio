@@ -140,7 +140,7 @@ a:hover, a:active{
 }
 #welcome-message {
     align-content: center;
-    text-align: left;
+    text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
     padding: 5%;
