@@ -4,12 +4,15 @@
     padding: 0%;
 } 
 body{
-   margin: 0%;
-   padding: 0%;
-   font-family: 'Roboto Slab', serif;
-   font-size: 1em;
-   background-color: #283655;
-   color:#ffffff; 
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    background-color: #283655;
+    color:#ffffff; 
 }
 a{
     color:#ffffff;
@@ -18,4 +21,140 @@ a{
 a:hover, a:active{
     color:#2d2e25;
     transition: 0.7s ease;
+}
+
+/* Header-bar styles */
+#header-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#name-div{
+    align-items: center;
+    text-align: center;
+}
+#name-name{
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    font-size: 1.6em;
+    letter-spacing: 8px;
+}
+#nav-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+}
+.padder{
+    padding: 3%;
+}
+.hov-col:hover{
+    background-image: linear-gradient(to right, #99738E , #F64C72);
+    color: #ffffff;
+}
+@media screen and (max-width: 850px){
+    #header-bar {
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    #nav-tab {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* Full background image styles */
+#welcome{    
+    background-image: url("https://wallpaperaccess.com/full/1567677.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+/* Welcome title and message area styles */
+#welcome-txt{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#welcome-title {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#welcome-title-title{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6em;
+    letter-spacing: 8px;
+    font-family: 'Roboto Slab', serif;
+}
+#welcome-message {
+    align-content: center;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    padding: 5%;
+}
+#welcome-message-heading{
+    letter-spacing: 3px;
+    line-height: 1.6;
+    font-size: 1.5em;
+}
+#welcome-message-message {
+    letter-spacing: 3px;
+    line-height: 1.6;
+    font-size: 1.3em;
+}
+#resume-link:hover{
+    color: #F64C72;
+}
+
+@media screen and (max-width: 850px){
+    #welcome{
+        grid-template-columns: 1fr;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    #welcome-title {
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    #welcome-message {
+        text-align: center;
+    }
+}
+
+/* Footer section styles */
+#footer-sec{
+    margin-top: auto;
+}
+#contact-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5%;
+    background-color: #4d648d;
+}
+
+/* Copyright styles */
+#copyright{
+    background-color: #1e1f26;
+    padding: .6%;
+    text-align: right; 
+}
+@media screen and (max-width: 850px){
+    #copyright{
+        text-align: center;
+    }
 }
