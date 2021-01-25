@@ -11,7 +11,6 @@ function loadPortfolio() {
     
     portfolio.onload = function() {
         let portfolioContent = JSON.parse(portfolio.responseText);
-        console.log(portfolioContent);
 
         let output = '';
 
@@ -38,7 +37,6 @@ var morecontent = new XMLHttpRequest();
 
 function loadmoreprojects() {
     
-    console.log("button clicked");
     morecontent.open('get', 'portfolio.json', true);
 
     morecontent.onload = function() {
@@ -46,7 +44,6 @@ function loadmoreprojects() {
 
             var morecont = JSON.parse(morecontent.responseText);
 
-            console.log(morecont);
             var output1 = '';
 
             for(let i=3; i<morecont.length; i++){

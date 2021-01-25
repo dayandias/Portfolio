@@ -1,0 +1,21 @@
+/* General styles */
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+body{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Roboto Slab', serif;
+   font-size: 1em;
+   background-color: #283655;
+   color:#ffffff; 
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color:#2d2e25;
+    transition: 0.7s ease;
+}
