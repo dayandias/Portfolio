@@ -3,9 +3,7 @@
     margin: 0%;
     padding: 0%;
 }
-html{
-    height: 100%;
-} 
+
 body{
    margin: 0%;
    padding: 0%;
@@ -13,8 +11,6 @@ body{
    font-size: 1em;
    background-color: #283655;
    color:#ffffff; 
-
-   min-height: 100%;
 }
 a{
     color:#ffffff;
@@ -102,7 +98,7 @@ a:hover, a:active{
     background-image: linear-gradient(to right, #99738E , #F64C72);
     color: #ffffff;
 }
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 900px){
     #header-bar {
         grid-template-columns: 1fr;
         align-items: center;
@@ -164,7 +160,7 @@ a:hover, a:active{
     color: #F64C72;
 }
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 900px){
     #welcome{
         grid-template-columns: 1fr;
         align-content: center;
@@ -232,7 +228,7 @@ a:hover, a:active{
 #btn-div{
     text-align: right;
 }
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 900px){
     #portfolio {
         grid-template-columns: 1fr;
     }
@@ -249,6 +245,10 @@ a:hover, a:active{
 } 
 
 /* Footer section styles */
+#footer-sec{
+   margin-top: auto;
+}
+
 #contact-me{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -277,7 +277,7 @@ a:hover, a:active{
 
     margin-top: auto;
 }
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 900px){
     #copyright{
         text-align: center;
     }
