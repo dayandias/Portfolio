@@ -53,7 +53,7 @@ a:hover, a:active{
     background-image: linear-gradient(to right, #99738E , #F64C72);
     color: #ffffff;
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1250px){
     #header-bar {
         grid-template-columns: 1fr;
         align-items: center;
@@ -114,7 +114,7 @@ a:hover, a:active{
     color: #F64C72;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1250px){
     #welcome{
         grid-template-columns: 1fr;
         align-content: center;
@@ -134,9 +134,10 @@ a:hover, a:active{
 }
 
 /* Footer section styles */
-#footer-sec{
+/* #footer-sec{
+
     margin-top: auto;
-}
+} */
 #contact-me{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -147,13 +148,22 @@ a:hover, a:active{
     background-color: #4d648d;
 }
 
+/* Social media icons */
+.social-icons{
+    width: 30px;
+}
+.social-icons:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+
 /* Copyright styles */
 #copyright{
     background-color: #1e1f26;
     padding: .6%;
     text-align: right; 
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1250px){
     #copyright{
         text-align: center;
     }
