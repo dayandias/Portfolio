@@ -50,7 +50,7 @@ function loadmoreprojects() {
                 output1 +=  
                 `   <div class="curr">
                     <a href="${morecont[i].link}">
-                    <img id="p1-img" src="${morecont[i].image}">
+                    <img id="p1-img" src="${morecont[i].image}" alt="Image not available">
                     <div id="visible">${morecont[i].visible}</div>
                 </a>
            </div>
