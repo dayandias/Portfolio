@@ -41,6 +41,12 @@
         "link": "https://github.com/rodrigo-r-martins/millennial-news-app",
         "image": "https://cdn.neow.in/news/images/uploaded/2017/05/1495072471_android-studio_story.jpg",
         "visible": "Millenial News"
+    },
+    {
+        "id": 8,
+        "link": "https://github.com/nikhilracha/jobster",
+        "image": "https://miro.medium.com/max/2484/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+        "visible": "Jobster"
     }
 
 ]
