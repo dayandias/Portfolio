@@ -38,9 +38,9 @@
     },
     {
         "id": 7,
-        "link": "https://github.com/dayandias/DBMS-Assignment-4---part-1/blob/master/paper_reviews_author.sql",
-        "image": "https://i.pinimg.com/originals/3a/51/12/3a51129274fc2cf77ec774ed11845928.jpg",
-        "visible": "DBMS with MySQL"
+        "link": "https://github.com/rodrigo-r-martins/millennial-news-app",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.neowin.net%2Fnews%2Fgoogle-is-killing-off-32-bit-android-studio-next-year%2F&psig=AOvVaw3HRLAw9Fl_y2bE1o3AgDWx&ust=1623222050102000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiRmMC7h_ECFQAAAAAdAAAAABAT",
+        "visible": "Millenial News"
     }
 
 ]
