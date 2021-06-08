@@ -35,6 +35,12 @@
         "link": "https://github.com/dayandias/DBMS-Assignment-4---part-1/blob/master/paper_reviews_author.sql",
         "image": "https://i.pinimg.com/originals/3a/51/12/3a51129274fc2cf77ec774ed11845928.jpg",
         "visible": "DBMS with MySQL"
+    },
+    {
+        "id": 7,
+        "link": "https://github.com/dayandias/DBMS-Assignment-4---part-1/blob/master/paper_reviews_author.sql",
+        "image": "https://i.pinimg.com/originals/3a/51/12/3a51129274fc2cf77ec774ed11845928.jpg",
+        "visible": "DBMS with MySQL"
     }
 
 ]
