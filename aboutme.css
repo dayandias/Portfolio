@@ -115,6 +115,11 @@ a:hover, a:active{
 #resume-link:hover{
     color: #F64C72;
 }
+#pp-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
 @media screen and (max-width: 900px){
     #welcome{
