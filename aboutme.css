@@ -119,7 +119,7 @@ a:hover, a:active{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px
+    margin-top: 50%
 }
 
 @media screen and (max-width: 900px){
