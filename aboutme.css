@@ -145,6 +145,7 @@ a:hover, a:active{
     }
     #pp-img{
         width: 90%;
+        height: auto
     }
 }
 
