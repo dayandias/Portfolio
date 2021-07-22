@@ -143,6 +143,9 @@ a:hover, a:active{
        text-align: center;
        justify-content: center;
     }
+    #pp-img{
+        width: 90%;
+    }
 }
 
 /* Footer section styles */
