@@ -112,6 +112,10 @@ a:hover, a:active{
     line-height: 1.6;
     font-size: 1.3em;
 }
+
+#resume-link{
+    color: black;
+}
 #resume-link:hover{
     color: #F64C72;
 }
